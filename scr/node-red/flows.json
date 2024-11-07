@@ -1,0 +1,2788 @@
+[
+    {
+        "id": "9c391283a404f989",
+        "type": "tab",
+        "label": "Home",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9299fc05f2b2366b",
+        "type": "tab",
+        "label": "Status",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "21899c8fa2cac1fb",
+        "type": "tab",
+        "label": "Historico",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7a5f691890cc5a7d",
+        "type": "tab",
+        "label": "Braço 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "13173c25815d8615",
+        "type": "ui_tab",
+        "name": "Menu de Status",
+        "icon": "dashboard",
+        "order": 6,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "bca29c92456faca8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#c61515",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#9900ff",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#007007",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#000000",
+                    "value": "#007007",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#007007",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#37ff00",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#007007",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#000000",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "red",
+                "accents": "red",
+                "warn": "red",
+                "background": "blue-grey",
+                "palette": "dark"
+            }
+        },
+        "site": {
+            "name": "Empreende Week TEC",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "29774fd399933014",
+        "type": "ui_group",
+        "name": "Site",
+        "tab": "13173c25815d8615",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "90c2d749e1036425",
+        "type": "MySQLdatabase",
+        "name": "trabalho IOT",
+        "host": "127.0.0.1",
+        "port": "29219",
+        "db": "trabalhoiot",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "5489465dd8c54f04",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "web",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "45a4635ee531d5ae",
+        "type": "ui_group",
+        "name": "Site",
+        "tab": "5489465dd8c54f04",
+        "order": 1,
+        "disp": false,
+        "width": "19",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "780393791c5dab49",
+        "type": "ui_tab",
+        "name": "Historico Status",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": true
+    },
+    {
+        "id": "aba291edc123d5f8",
+        "type": "ui_group",
+        "name": "Site",
+        "tab": "780393791c5dab49",
+        "order": 1,
+        "disp": false,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4ef27db37d7d347a",
+        "type": "ui_group",
+        "name": "site",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8f015a01642c12b7",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 2,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4e8b5c060a3cccd3",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "39ce48bc9fae29ba",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "93863c7a25dc7511",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1bfbc2d2fa07f868",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1c9bc53d1bc19da0",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1e3c24d1d21a3486",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2a1daf0ef6ed152e",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "835bac4fb6a93815",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "a7460eeea35f6834",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 12,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8b4bbc6378d83977",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "652d9964e9840e94",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "4ef27db37d7d347a",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9aa7949811108368",
+        "type": "ui_spacer",
+        "z": "21899c8fa2cac1fb",
+        "name": "spacer",
+        "group": "aba291edc123d5f8",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "c3df3210f6ea80d5",
+        "type": "ui_spacer",
+        "z": "9299fc05f2b2366b",
+        "name": "spacer",
+        "group": "29774fd399933014",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "bfcf5de35cb07222",
+        "type": "ui_spacer",
+        "z": "9299fc05f2b2366b",
+        "name": "spacer",
+        "group": "29774fd399933014",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "383b0b7488099594",
+        "type": "ui_spacer",
+        "z": "9299fc05f2b2366b",
+        "name": "spacer",
+        "group": "29774fd399933014",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "57c12b4fbc530772",
+        "type": "ui_spacer",
+        "z": "9299fc05f2b2366b",
+        "name": "spacer",
+        "group": "29774fd399933014",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f55935d4d161948b",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e0e6acd24701f0c8",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 4,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "610e02f824833d9b",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2b2793570ad64cb2",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 6,
+        "width": 21,
+        "height": 1
+    },
+    {
+        "id": "74e48a43abc0cf7e",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 7,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "8f0865f3d8bfd3f4",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 8,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "fb06eb068187a3d0",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 9,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "9d5ab9ccf6a0158f",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 10,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "145ea25708ad7809",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 11,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "ae44e8aad9812135",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 12,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "209c7891cdd7039e",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 13,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "c735e677b1d04dec",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 14,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "43ec078fd2338c8a",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 15,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "fa18c3d64e5310b9",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 16,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "12c40a2b210bf975",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 17,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "b4e4cf57dbe3a30d",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 18,
+        "width": 30,
+        "height": 1
+    },
+    {
+        "id": "a33cc2c5f154285c",
+        "type": "ui_spacer",
+        "z": "9c391283a404f989",
+        "name": "spacer",
+        "group": "45a4635ee531d5ae",
+        "order": 19,
+        "width": 28,
+        "height": 1
+    },
+    {
+        "id": "3bf61cd05ea72329",
+        "type": "ui_group",
+        "name": "Site",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d4d2c314b809eaf5",
+        "type": "ui_tab",
+        "name": "Braço",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "c4bda25d5f1dbb08",
+        "type": "ui_group",
+        "name": "página inicial",
+        "tab": "d4d2c314b809eaf5",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d8427b105dadab49",
+        "type": "ui_tab",
+        "name": "Direção",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "4d46b778f13357ef",
+        "type": "ui_group",
+        "name": "Direção",
+        "tab": "d8427b105dadab49",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "010c826b8e537fb6",
+        "type": "ui_tab",
+        "name": "Posição",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "2ab31943c0ef5d69",
+        "type": "ui_group",
+        "name": "Posição",
+        "tab": "010c826b8e537fb6",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ccaa83d562bb79c0",
+        "type": "ui_tab",
+        "name": "Altura",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "c8dad0765accb8f9",
+        "type": "ui_group",
+        "name": "Altura",
+        "tab": "ccaa83d562bb79c0",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e052ba870b3bbcf2",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "15e1470da88cb7b1",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "0235f72abd4e36ef",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3353f2e525b9e890",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d37014b690c795c",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6ddabd74bfbe6df2",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e1a96af62038ae0e",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f9b898db1d7a0cc0",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fd3f74af67a56722",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "613757d942f199b0",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "4d46b778f13357ef",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "82bd7e15ff48662e",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4b0e52e369dff624",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "70e1a73a62477e31",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9803c1f0c60b9a32",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8652644653218473",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "64bf729417bda662",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dcaffb934cd43698",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "15fc84183b22b2b0",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3a514253b5fd2437",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aead4df3ec8b622c",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "2ab31943c0ef5d69",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "67c2fcf571281769",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8561069a4ffb7e53",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "61159427e4b8da75",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a71c0aef175f5735",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ef7fefe0360f8c69",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f5fa369236390543",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "030b4a343e1883e9",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63262dcbc75e24ae",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dbd2b9d55ecdf94e",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6d0d0208b07795bb",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "91e217d18b309ca1",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d4056aaef6b1c92d",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c6be34f870a05b8d",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d9d63e30823eeb61",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "062968a68e3408f5",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6cdaa1d4e4a881de",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 19,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "81d29ebc194acf13",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 20,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "669d81e2cc6e75e8",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 21,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b677518a047863ff",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 22,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e66c82cb22e68469",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c8dad0765accb8f9",
+        "order": 23,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "45fe5594e24266bb",
+        "type": "mqtt-broker",
+        "name": "ServerMQTT",
+        "broker": "127.0.0.1",
+        "port": "18219",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "aee774b04c3d4b50",
+        "type": "ui_group",
+        "name": "Site",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b2fd16e4dd330fa2",
+        "type": "ui_group",
+        "name": "Página Inicial",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "18aecfb8d0306ae1",
+        "type": "ui_group",
+        "name": "Direção",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ad863ad2dbe956f1",
+        "type": "ui_group",
+        "name": "Posição",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dac91eef8f721d62",
+        "type": "ui_group",
+        "name": "Altura",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a606011e179695d6",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "aee774b04c3d4b50",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0f36f11ebca81b42",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "aee774b04c3d4b50",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "aa3880969c7e31b1",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "aee774b04c3d4b50",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f5cf41884052b78e",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "aee774b04c3d4b50",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e05790f22467adf0",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "32409fc45b573e52",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5720b13c347dae5d",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 6,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "898e0dbe24b4ddb7",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e0d8dcccf44bb362",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dd0c4436e9fcc7f3",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d58771fba0fda6ad",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6101b0f074f30c3e",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 12,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "a9153a11b44cb194",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "84714458b5e3388a",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0dc1a6b2cd962797",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "590e942e49347247",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6e6b517b3f9800f2",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 18,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e69d62295dc9ca5d",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 19,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "8b0ecbae3b8eb3db",
+        "type": "ui_spacer",
+        "z": "7a5f691890cc5a7d",
+        "name": "spacer",
+        "group": "c4bda25d5f1dbb08",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "236f6e9f95950610",
+        "type": "ui_ui_control",
+        "z": "9c391283a404f989",
+        "name": "",
+        "events": "change",
+        "x": 240,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98445313c2d35f63",
+        "type": "ui_button",
+        "z": "9c391283a404f989",
+        "name": "",
+        "group": "45a4635ee531d5ae",
+        "order": 20,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset Wifi",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "wifi",
+        "payload": "Reset",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "3927dfd5b250042f"
+            ]
+        ]
+    },
+    {
+        "id": "3927dfd5b250042f",
+        "type": "mqtt out",
+        "z": "9c391283a404f989",
+        "name": "",
+        "topic": "mig/porta/reset",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 340,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a70dafef22edea12",
+        "type": "ui_button",
+        "z": "9c391283a404f989",
+        "name": "TESTE",
+        "group": "45a4635ee531d5ae",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "label": "Fonte Externa",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fingerprint",
+        "payload": "PLUSH",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 420,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1ad4a12d4246c19",
+        "type": "ui_button",
+        "z": "9c391283a404f989",
+        "name": "Status De Humidade",
+        "group": "45a4635ee531d5ae",
+        "order": 1,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "label": "Status De Humidade",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "custom-button",
+        "icon": "https://png.pngtree.com/png-vector/20220617/ourmid/pngtree-old-gate-icon-black-color-vector-illustration-flat-style-outline-png-image_5120392.png",
+        "payload": "Menu de Status",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 80,
+        "wires": [
+            [
+                "236f6e9f95950610"
+            ]
+        ]
+    },
+    {
+        "id": "6723c474138a243b",
+        "type": "ui_button",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "group": "29774fd399933014",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Conexão",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "",
+        "className": "",
+        "icon": "signal_wifi_4_bar",
+        "payload": "AtuaPortao",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 980,
+        "y": 40,
+        "wires": [
+            [
+                "15f34b3763f475fa"
+            ]
+        ]
+    },
+    {
+        "id": "15f34b3763f475fa",
+        "type": "mqtt out",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "topic": "mig/porta/PortaS",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 1150,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "21920477cae03b55",
+        "type": "mqtt in",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "topic": "mig/porta/Status",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "45fe5594e24266bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "d524d77af756c400"
+            ]
+        ]
+    },
+    {
+        "id": "d524d77af756c400",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "FiltraStatus",
+        "func": "// Obtém a mensagem do payload\nlet message = msg.payload;\n\n// Verifica se a mensagem é \"Connect\"\nif (message % message === 0) {\n    return msg;\n} else {\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 100,
+        "wires": [
+            [
+                "270b3c73a55e95b0"
+            ]
+        ]
+    },
+    {
+        "id": "9f3cd2ccc023f9c0",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "RecebeStatus",
+        "func": "// Verifica se há dados no payload\nif (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    // Recupera o último status armazenado no contexto do fluxo\n    let lastStatus = context.get('lastStatus') || '';\n\n    // Obtém o status atual (último item do payload)\n    let currentStatus = msg.payload[msg.payload.length - 1].status;\n\n    // Compara o status atual com o status anterior\n    if (lastStatus === currentStatus) {\n        // Se o status atual for igual ao status anterior, não envia a mensagem\n        return null;\n    } else {\n        // Atualiza o status armazenado no contexto\n        context.set('lastStatus', currentStatus);\n\n        // Define o payload como o status atual\n        msg.payload = currentStatus;\n\n        return msg;\n    }\n} else {\n    // Se não há dados no payload ou o payload está vazio\n    msg.payload = 'No data received';\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 400,
+        "wires": [
+            [
+                "136a82cf32bfb3c1"
+            ]
+        ]
+    },
+    {
+        "id": "270b3c73a55e95b0",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "RecebeStatusArray",
+        "func": "// Obtém os dados do contexto de fluxo ou cria novos se não existirem\nlet porcent = context.get('porcentagem') || null;\n\n// Verifica se a mensagem recebida não é uma mensagem inicial\nif (msg.topic === \"mig/porta/Status\") {\n    // Se a mensagem é number, atualiza a quantidade\n    if (msg.payload === Number) {\n        porcent = msg.payload;\n        context.set('porcentagem', porcent);\n    } \n    // Se a mensagem é um horário, atualiza o horário\n    else if (msg.payload.match(/^\\d{2}:\\d{2}:\\d{2}$/)) {\n        horario = msg.payload;\n        context.set('horario', horario);\n    }\n}\n\n// Se ambos estado e horário estão disponíveis, cria um objeto com eles\nif (porcent !== null && horario !== null) {\n    msg.payload = {\n        porcent: porcent,\n        horario: horario\n    };\n    \n    // Limpa os valores após criar o objeto para evitar associações erradas\n    context.set('estado', null);\n    context.set('horario', null);\n    \n    return msg;\n}\n\n// Se ainda não está pronto para enviar, retorna uma mensagem vazia\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 100,
+        "wires": [
+            [
+                "f6637189603caa14"
+            ]
+        ]
+    },
+    {
+        "id": "136a82cf32bfb3c1",
+        "type": "ui_text",
+        "z": "9299fc05f2b2366b",
+        "group": "29774fd399933014",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Status Portão",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 780,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f6637189603caa14",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "RecebeValoresPARAbancodedados",
+        "func": "// Obtém o último ID armazenado no contexto global\nlet lastId = global.get('LastId') || 0;\n\n// Incrementa o ID para a próxima inserção\nlet newId = lastId + 1;\n\n// Verifica se a mensagem recebida é do tópico correto\nif (msg.topic === \"mig/porta/Status\") {\n    // Configura a mensagem para inserção no MySQL\n    msg.topic = \"INSERT INTO StatusHumid (ID, status, datahora) VALUES (?, ?, ?)\";\n    msg.payload = [newId, msg.payload.porcent, msg.payload.horario];\n    \n    return msg;\n}\n\n// Se a mensagem não é do tópico esperado, retorna null\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 160,
+        "wires": [
+            [
+                "29d1edcfde9bc185"
+            ]
+        ]
+    },
+    {
+        "id": "e5b70c533d7cae58",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "LASTid",
+        "func": "if (Array.isArray(msg.payload) && msg.payload.length > 0) {\n    var lastId = msg.payload[0].last_id || 0; // Garantir que last_id é 0 se não existir\n    global.set('LastId', lastId);  // Armazena o último ID\n    msg.payload = lastId;\n} else {\n    msg.payload = 0; // Se nenhum ID for encontrado, inicia com 0\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 200,
+        "wires": [
+            [
+                "f6637189603caa14"
+            ]
+        ]
+    },
+    {
+        "id": "bc0dba845e81d63c",
+        "type": "mysql",
+        "z": "9299fc05f2b2366b",
+        "mydb": "90c2d749e1036425",
+        "name": "Table-ListaPortao",
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "d978a69a9c191201"
+            ]
+        ]
+    },
+    {
+        "id": "ab3a65c147535e7d",
+        "type": "ui_template",
+        "z": "9299fc05f2b2366b",
+        "group": "29774fd399933014",
+        "name": "ListaNãoVolatil",
+        "order": 7,
+        "width": 7,
+        "height": 9,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        .info-box {\n            border: 1px solid #ccc;\n            border-radius: 5px;\n            padding: 10px;\n            margin: 10px 0;\n            height: 100%;\n            overflow-y: auto;\n            box-sizing: border-box;\n        }\n\n        .info-box h3 {\n            margin: 0;\n            font-size: 18px;\n        }\n\n        .list-item {\n            margin: 5px 0;\n            padding: 5px;\n            border-bottom: 1px solid #ddd;\n        }\n    </style>\n</head>\n\n<body>\n    <div class=\"info-box\">\n        <h3>Status do Portão</h3>\n        <div id=\"listContainer\"></div>\n    </div>\n    <script>\n        (function(scope) {\n            var allItems = [];\n\n            function renderItems() {\n                var container = document.getElementById('listContainer');\n                container.innerHTML = ''; // Limpa o container\n\n                // Exibe os itens na ordem em que foram recebidos (mais recentes primeiro)\n                allItems.forEach(function(item) {\n                    var listItem = document.createElement('div');\n                    listItem.className = 'list-item';\n                    listItem.textContent = 'Status: ' + item.status + ', Data e Hora: ' + item.datahora;\n                    container.appendChild(listItem);\n                });\n            }\n\n            scope.$watch('msg', function(msg) {\n                if (msg && msg.payload) {\n                    // Adiciona novos registros ignorando duplicatas\n                    msg.payload.forEach(function(newItem) {\n                        const exists = allItems.some(function(item) {\n                            return item.status === newItem.status && item.datahora === newItem.datahora;\n                        });\n\n                        if (!exists) {\n                            allItems.unshift(newItem); // Adiciona o novo item no início\n                        }\n                    });\n                    renderItems();\n                }\n            });\n\n            // Chama a função para buscar todos os registros ao carregar a página\n            function fetchAllRecords() {\n                scope.send({ payload: { action: 'fetchAll' } });\n            }\n\n            fetchAllRecords();\n        })(scope);\n    </script>\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 780,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29d1edcfde9bc185",
+        "type": "mysql",
+        "z": "9299fc05f2b2366b",
+        "mydb": "90c2d749e1036425",
+        "name": "Table-StatusPortao",
+        "x": 1190,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64c57d873a166648",
+        "type": "mysql",
+        "z": "9299fc05f2b2366b",
+        "mydb": "90c2d749e1036425",
+        "name": "Table-LastId",
+        "x": 390,
+        "y": 200,
+        "wires": [
+            [
+                "e5b70c533d7cae58"
+            ]
+        ]
+    },
+    {
+        "id": "245d27fccb3fc451",
+        "type": "inject",
+        "z": "9299fc05f2b2366b",
+        "name": "BuscaUltimaID",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT MAX(id) AS last_id FROM StatusHumid;",
+        "x": 160,
+        "y": 200,
+        "wires": [
+            [
+                "64c57d873a166648"
+            ]
+        ]
+    },
+    {
+        "id": "9eb0ab185db448fd",
+        "type": "inject",
+        "z": "9299fc05f2b2366b",
+        "name": "BuscaStatusEHoras",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT status, datahora FROM StatusHumid",
+        "x": 160,
+        "y": 320,
+        "wires": [
+            [
+                "bc0dba845e81d63c"
+            ]
+        ]
+    },
+    {
+        "id": "f99419e630af5919",
+        "type": "inject",
+        "z": "9299fc05f2b2366b",
+        "name": "BuscaStatus",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT status FROM StatusHumid",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "f1aea2328ffd2547"
+            ]
+        ]
+    },
+    {
+        "id": "f1aea2328ffd2547",
+        "type": "mysql",
+        "z": "9299fc05f2b2366b",
+        "mydb": "90c2d749e1036425",
+        "name": "Table-Status-Dashboard",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "9f3cd2ccc023f9c0"
+            ]
+        ]
+    },
+    {
+        "id": "80a979ddd83794ac",
+        "type": "ui_button",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "group": "29774fd399933014",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "backup Manual",
+        "tooltip": "",
+        "color": "white",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "office",
+        "payload": "ativar",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 460,
+        "wires": [
+            [
+                "5154763d06b4304a"
+            ]
+        ]
+    },
+    {
+        "id": "5154763d06b4304a",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "DefineNomeLocalManual",
+        "func": "let message = msg.payload;\n\nif (message === \"ativar\") {\n    // Obter a data e hora atual\n    var now = new Date();\n\n    // Formatar dia, mês, ano, hora e minuto\n    var day = now.getDate();\n    var month = now.getMonth() + 1; // getMonth() é zero-based\n    var year = now.getFullYear();\n    var hours = now.getHours();\n    var minutes = now.getMinutes();\n\n    // Adicionar zero à esquerda se o dia, mês, hora ou minuto for menor que 10\n    day = day < 10 ? '0' + day : day;\n    month = month < 10 ? '0' + month : month;\n    hours = hours < 10 ? '0' + hours : hours;\n    minutes = minutes < 10 ? '0' + minutes : minutes;\n\n    // Formatar o caminho do arquivo\n    var filePath = `C:/MigBiguetiDashboard/backup/${day}-${month}-${year}-${hours}-${minutes}.xlsx`;\n\n    // Definir o caminho do arquivo no msg.filepath\n    msg.filepath = filePath;\n\n    // Não definir msg.payload\n    delete msg.payload; // Garante que msg.payload não esteja definido\n\n    // Retornar a mensagem\n    return msg;\n} else {\n    // Retornar null se a condição não for atendida\n    return null;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 480,
+        "wires": [
+            [
+                "afd302c62221b650"
+            ]
+        ]
+    },
+    {
+        "id": "2a26a327eb729b53",
+        "type": "mysql",
+        "z": "9299fc05f2b2366b",
+        "mydb": "90c2d749e1036425",
+        "name": "Table_Planilha",
+        "x": 840,
+        "y": 480,
+        "wires": [
+            [
+                "ce528a554a6e4ded"
+            ]
+        ]
+    },
+    {
+        "id": "ce528a554a6e4ded",
+        "type": "excel",
+        "z": "9299fc05f2b2366b",
+        "name": "PlanilhaBackup",
+        "file": "",
+        "x": 1040,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "735a388bd42c327d",
+        "type": "ui_button",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "group": "29774fd399933014",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "reply",
+        "payload": "Home",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 990,
+        "y": 320,
+        "wires": [
+            [
+                "5e683129196f0c47"
+            ]
+        ]
+    },
+    {
+        "id": "5e683129196f0c47",
+        "type": "ui_ui_control",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "events": "change",
+        "x": 1140,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5da9e0f3890d8b04",
+        "type": "ui_button",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "group": "29774fd399933014",
+        "order": 10,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Historico",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Historico Portão Frente",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 1000,
+        "y": 360,
+        "wires": [
+            [
+                "7bd0140dd1493325"
+            ]
+        ]
+    },
+    {
+        "id": "7bd0140dd1493325",
+        "type": "ui_ui_control",
+        "z": "9299fc05f2b2366b",
+        "name": "",
+        "events": "change",
+        "x": 1160,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d978a69a9c191201",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "EnviarStatusEHora",
+        "func": "// Verifica se msg.payload é um array e não está vazio\nif (msg.payload && Array.isArray(msg.payload)) {\n    // Cria um conjunto para armazenar status já vistos\n    const seen = new Set();\n\n    // Filtra os valores para ignorar duplicatas\n    const uniqueItems = msg.payload.filter(item => {\n        const key = item.status + item.datahora; // Chave para verificar duplicatas\n        if (!seen.has(key)) {\n            seen.add(key);\n            return true; // Mantém o item se não for duplicado\n        }\n        return false; // Ignora duplicados\n    });\n\n    msg.payload = uniqueItems; // Atualiza o payload com itens únicos\n    return msg; // Retorna a mensagem com o payload filtrado\n} else {\n    // Se o payload estiver vazio ou não existir, retorna um payload vazio\n    msg.payload = [];\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 320,
+        "wires": [
+            [
+                "ab3a65c147535e7d"
+            ]
+        ]
+    },
+    {
+        "id": "afd302c62221b650",
+        "type": "function",
+        "z": "9299fc05f2b2366b",
+        "name": "BuscaValores",
+        "func": "// Prepare a query for the SQL database\nmsg.topic = \"SELECT status AS Status, datahora AS Hora, dia AS Dia, mes AS Mês, ano AS Ano FROM historicportao\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "2a26a327eb729b53"
+            ]
+        ]
+    },
+    {
+        "id": "dd2bcc98689e975e",
+        "type": "ui_button",
+        "z": "21899c8fa2cac1fb",
+        "name": "",
+        "group": "aba291edc123d5f8",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "reply",
+        "payload": "Portão Frente",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 20,
+        "wires": [
+            [
+                "6e0e44940e7f5a05"
+            ]
+        ]
+    },
+    {
+        "id": "6e0e44940e7f5a05",
+        "type": "ui_ui_control",
+        "z": "21899c8fa2cac1fb",
+        "name": "",
+        "events": "change",
+        "x": 720,
+        "y": 20,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "52c8af7182c4d249",
+        "type": "mqtt in",
+        "z": "21899c8fa2cac1fb",
+        "name": "",
+        "topic": "mig/porta/PortaS",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "45fe5594e24266bb",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 100,
+        "wires": [
+            [
+                "5d9596e437ba1c96"
+            ]
+        ]
+    },
+    {
+        "id": "5d9596e437ba1c96",
+        "type": "function",
+        "z": "21899c8fa2cac1fb",
+        "name": "FiltraStatus",
+        "func": "// Obtém a mensagem do payload\nlet message = msg.payload;\n\n// Verifica se a mensagem é \"Connect\"\nif (message === \"Connect\") {\n    return null;\n} else {\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 100,
+        "wires": [
+            [
+                "2c79d3a0a9962a18"
+            ]
+        ]
+    },
+    {
+        "id": "2c79d3a0a9962a18",
+        "type": "function",
+        "z": "21899c8fa2cac1fb",
+        "name": "RecebeStatusArray",
+        "func": "// Obtém os dados do contexto de fluxo ou cria novos se não existirem\nlet estado = context.get('estado') || null;\nlet horario = context.get('horario') || null;\n\n// Verifica se a mensagem recebida não é uma mensagem inicial\nif (msg.topic === \"mig/porta/PortaS\") {\n    // Se a mensagem é \"PortaoAberto\" ou \"PortaoFechado\", atualiza o estado\n    if (msg.payload === \"PortaAberta\" || msg.payload === \"PortaFechada\") {\n        estado = msg.payload;\n        context.set('estado', estado);\n    } \n    // Se a mensagem é um horário, atualiza o horário\n    else if (msg.payload.match(/^\\d{2}:\\d{2}:\\d{2}$/)) {\n        horario = msg.payload;\n        context.set('horario', horario);\n    }\n}\n\n// Se ambos estado e horário estão disponíveis, cria um objeto com eles\nif (estado !== null && horario !== null) {\n    msg.payload = {\n        estado: estado,\n        horario: horario\n    };\n    \n    // Limpa os valores após criar o objeto para evitar associações erradas\n    context.set('estado', null);\n    context.set('horario', null);\n    \n    return msg;\n}\n\n// Se ainda não está pronto para enviar, retorna uma mensagem vazia\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 100,
+        "wires": [
+            [
+                "c867be910ecfc564"
+            ]
+        ]
+    },
+    {
+        "id": "c867be910ecfc564",
+        "type": "function",
+        "z": "21899c8fa2cac1fb",
+        "name": "Envia valores para o Historico",
+        "func": "// Verifica se a mensagem recebida é do tópico correto\nif (msg.topic === \"mig/porta/PortaS\") {\n    // Configura a mensagem para inserção no MySQL\n    msg.topic = \"INSERT INTO historicporta (status, datahora, dia, mes, ano) VALUES (?, ?, ?, ?, ?)\";\n\n    // Obtém a data atual\n    const now = new Date();\n    const dia = now.getDate();       // Dia atual\n    const mes = now.getMonth() + 1;  // Mês atual (getMonth() retorna 0-11, então adicionamos 1)\n    const ano = now.getFullYear();   // Ano atual\n\n    msg.payload = [\n        msg.payload.estado,  // Status\n        msg.payload.horario, // Horário\n        dia,                 // Dia\n        mes,                 // Mês\n        ano                  // Ano\n    ];\n    \n    return msg;\n}\n\n// Se a mensagem não é do tópico esperado, retorna null\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 100,
+        "wires": [
+            [
+                "c24246dcaefcb0d1"
+            ]
+        ]
+    },
+    {
+        "id": "c24246dcaefcb0d1",
+        "type": "mysql",
+        "z": "21899c8fa2cac1fb",
+        "mydb": "90c2d749e1036425",
+        "name": "Historico",
+        "x": 980,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "939dea8fddfe1fb5",
+        "type": "ui_date_picker",
+        "z": "21899c8fa2cac1fb",
+        "name": "SelectData",
+        "label": "Data",
+        "group": "aba291edc123d5f8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "topic": "educ/portas/PortaoFrente",
+        "topicType": "str",
+        "className": "",
+        "x": 70,
+        "y": 180,
+        "wires": [
+            [
+                "e5a862f954cf7a66"
+            ]
+        ]
+    },
+    {
+        "id": "e5a862f954cf7a66",
+        "type": "function",
+        "z": "21899c8fa2cac1fb",
+        "name": "BuscaData",
+        "func": "// Recebe o timestamp do date picker\nconst timestamp = msg.payload;\n\n// Converte o timestamp para uma data\nconst date = new Date(timestamp);\n\n// Extrai o dia, mês e ano\nconst dia = date.getDate();\nconst mes = date.getMonth() + 1; // getMonth() retorna 0-11, então adicionamos 1\nconst ano = date.getFullYear();\n\n// Configura o SQL para buscar status e datahora desse dia\nmsg.topic = \"SELECT status, datahora FROM historicportao WHERE dia = ? AND mes = ? AND ano = ?\";\nmsg.payload = [dia, mes, ano];\n\n// Reseta a lista antes da nova consulta\nmsg.reset = true;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "9df625130bc3c7c6"
+            ]
+        ]
+    },
+    {
+        "id": "9df625130bc3c7c6",
+        "type": "mysql",
+        "z": "21899c8fa2cac1fb",
+        "mydb": "90c2d749e1036425",
+        "name": "Tablea-Historic",
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "74c528dbbd4fa879"
+            ]
+        ]
+    },
+    {
+        "id": "750c9ac2e7a2b3bc",
+        "type": "ui_template",
+        "z": "21899c8fa2cac1fb",
+        "group": "aba291edc123d5f8",
+        "name": "Historico",
+        "order": 4,
+        "width": 7,
+        "height": 11,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        .info-box {\n            border: 1px solid #ccc;\n            border-radius: 5px;\n            padding: 10px;\n            margin: 10px 0;\n            height: 100%;\n            overflow-y: auto;\n            box-sizing: border-box;\n        }\n\n        .info-box h3 {\n            margin: 0;\n            font-size: 18px;\n        }\n\n        .list-item {\n            margin: 5px 0;\n            padding: 5px;\n            border-bottom: 1px solid #ddd;\n        }\n\n        .no-results {\n            color: red;\n            font-weight: bold;\n        }\n    </style>\n</head>\n\n<body>\n    <div class=\"info-box\">\n        <h3>Histórico do Portão</h3>\n        <div id=\"listContainer\"></div>\n    </div>\n    <script>\n        (function(scope) {\n            var allItems = [];\n\n            // Limpa a lista sempre que a aba é carregada\n            allItems = []; // Reinicializa a lista\n\n            function renderItems() {\n                var container = document.getElementById('listContainer');\n                container.innerHTML = ''; // Limpa o container\n\n                if (allItems.length === 0) {\n                    // Exibe mensagem de \"Nenhum Valor Encontrado\"\n                    var noResultsMessage = document.createElement('div');\n                    noResultsMessage.className = 'no-results';\n                    noResultsMessage.textContent = 'Nenhum Valor Encontrado';\n                    container.appendChild(noResultsMessage);\n                } else {\n                    // Exibe os itens na ordem em que foram recebidos (mais recentes primeiro)\n                    allItems.forEach(function(item) {\n                        var listItem = document.createElement('div');\n                        listItem.className = 'list-item';\n                        listItem.textContent = 'Status: ' + item.status + ', Data e Hora: ' + item.datahora;\n                        container.appendChild(listItem);\n                    });\n                }\n            }\n\n            scope.$watch('msg', function(msg) {\n                if (msg && msg.payload) {\n                    if (msg.reset) {\n                        allItems = []; // Limpa a lista ao selecionar nova data\n                    }\n\n                    if (msg.payload === \"Nenhum Valor Encontrado\") {\n                        allItems = []; // Limpa a lista se não houver resultados\n                    } else {\n                        allItems = []; // Limpa a lista antes de adicionar novos itens\n                        msg.payload.forEach(function(newItem) {\n                            allItems.push(newItem); // Adiciona os novos itens\n                        });\n                    }\n                    renderItems();\n                }\n            });\n        })(scope);\n    </script>\n</body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 780,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74c528dbbd4fa879",
+        "type": "function",
+        "z": "21899c8fa2cac1fb",
+        "name": "VeriicaTabela",
+        "func": "// Verifica se o payload retornado do MySQL está vazio\nif (msg.payload.length === 0) {\n    // Se não houver resultados, configura uma mensagem\n    msg.payload = \"Nenhum Valor Encontrado\";\n} else {\n    // Se houver resultados, mantém os dados do banco\n    msg.reset = true; // Adiciona sinalizador de reset\n    msg.payload = msg.payload; \n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 180,
+        "wires": [
+            [
+                "750c9ac2e7a2b3bc"
+            ]
+        ]
+    },
+    {
+        "id": "e295bb1a5e5ae199",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "group": "c4bda25d5f1dbb08",
+        "order": 4,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "label": "Direção",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Direção",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "ca6e03063e1af3e0"
+            ]
+        ]
+    },
+    {
+        "id": "ca6e03063e1af3e0",
+        "type": "ui_ui_control",
+        "z": "7a5f691890cc5a7d",
+        "name": "Direção",
+        "events": "change",
+        "x": 260,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9e4131ba0f1b455",
+        "type": "ui_slider",
+        "z": "7a5f691890cc5a7d",
+        "name": "definir direção",
+        "label": "",
+        "tooltip": "",
+        "group": "4d46b778f13357ef",
+        "order": 13,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "180",
+        "step": 1,
+        "className": "",
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "479e44ec5b8a712d",
+                "939a0845e6e2da66"
+            ]
+        ]
+    },
+    {
+        "id": "479e44ec5b8a712d",
+        "type": "ui_gauge",
+        "z": "7a5f691890cc5a7d",
+        "name": "Grafico de Direção",
+        "group": "4d46b778f13357ef",
+        "order": 5,
+        "width": 5,
+        "height": 4,
+        "gtype": "donut",
+        "title": "Direção em graus",
+        "label": "graus",
+        "format": "{{value}}º",
+        "min": 0,
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#008707",
+            "#006407"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 310,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8da6e3c45511b1a9",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "group": "4d46b778f13357ef",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Braço",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 200,
+        "wires": [
+            [
+                "2cb2c03dda46f337"
+            ]
+        ]
+    },
+    {
+        "id": "2cb2c03dda46f337",
+        "type": "ui_ui_control",
+        "z": "7a5f691890cc5a7d",
+        "name": "Voltar inicio",
+        "events": "change",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c94186ac020769c9",
+        "type": "ui_slider",
+        "z": "7a5f691890cc5a7d",
+        "name": "definir posição",
+        "label": "",
+        "tooltip": "",
+        "group": "2ab31943c0ef5d69",
+        "order": 13,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "180",
+        "step": 1,
+        "className": "",
+        "x": 520,
+        "y": 120,
+        "wires": [
+            [
+                "c5a8feb4b5e9dbcc",
+                "4505023a3676d83e"
+            ]
+        ]
+    },
+    {
+        "id": "c5a8feb4b5e9dbcc",
+        "type": "ui_gauge",
+        "z": "7a5f691890cc5a7d",
+        "name": "Grafico de Posição",
+        "group": "2ab31943c0ef5d69",
+        "order": 5,
+        "width": 5,
+        "height": 4,
+        "gtype": "donut",
+        "title": "Posição em graus",
+        "label": "graus",
+        "format": "{{value}}º",
+        "min": 0,
+        "max": "180",
+        "colors": [
+            "#00b500",
+            "#008707",
+            "#006407"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 730,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "3e19a2fdc8411767",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "group": "c4bda25d5f1dbb08",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "label": "Posição",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Posição",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 480,
+        "y": 80,
+        "wires": [
+            [
+                "5e21c20fa3532d55"
+            ]
+        ]
+    },
+    {
+        "id": "5e21c20fa3532d55",
+        "type": "ui_ui_control",
+        "z": "7a5f691890cc5a7d",
+        "name": "Posição",
+        "events": "change",
+        "x": 620,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c84a1b691ce80e7",
+        "type": "ui_ui_control",
+        "z": "7a5f691890cc5a7d",
+        "name": "Voltar inicio",
+        "events": "change",
+        "x": 690,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "398b846437e6ebb4",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "group": "c4bda25d5f1dbb08",
+        "order": 8,
+        "width": 3,
+        "height": 2,
+        "passthru": false,
+        "label": "Altura",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Altura",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "f97760251ee2dfbc"
+            ]
+        ]
+    },
+    {
+        "id": "f97760251ee2dfbc",
+        "type": "ui_ui_control",
+        "z": "7a5f691890cc5a7d",
+        "name": "Altura",
+        "events": "change",
+        "x": 270,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32f08a6db11c6639",
+        "type": "ui_slider",
+        "z": "7a5f691890cc5a7d",
+        "name": "definir Altura",
+        "label": "",
+        "tooltip": "",
+        "group": "c8dad0765accb8f9",
+        "order": 14,
+        "width": 3,
+        "height": 5,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "90",
+        "step": 1,
+        "className": "",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "77c6417ac61b5591",
+                "85c2db0c27048a91"
+            ]
+        ]
+    },
+    {
+        "id": "77c6417ac61b5591",
+        "type": "ui_gauge",
+        "z": "7a5f691890cc5a7d",
+        "name": "Grafico de Altura",
+        "group": "c8dad0765accb8f9",
+        "order": 5,
+        "width": 5,
+        "height": 4,
+        "gtype": "donut",
+        "title": "Altura em graus",
+        "label": "graus",
+        "format": "{{value}}º",
+        "min": 0,
+        "max": "90",
+        "colors": [
+            "#00b500",
+            "#008707",
+            "#006407"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 330,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "093f9ff64302b5d4",
+        "type": "ui_ui_control",
+        "z": "7a5f691890cc5a7d",
+        "name": "Voltar inicio",
+        "events": "change",
+        "x": 270,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7dcd10f6aabda467",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "define garra",
+        "group": "c4bda25d5f1dbb08",
+        "order": 14,
+        "width": 5,
+        "height": 2,
+        "passthru": false,
+        "label": "{{msg.payload}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "AÇÃO",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 530,
+        "y": 260,
+        "wires": [
+            [
+                "7ca663aaf1304987"
+            ]
+        ]
+    },
+    {
+        "id": "7ca663aaf1304987",
+        "type": "function",
+        "z": "7a5f691890cc5a7d",
+        "name": "Define Status GARRA",
+        "func": "// Armazena o estado da garra em contexto\nlet estadoGarra = context.get(\"estadoGarra\") || \"Fechar Garra\";\n\n// Verifica a mensagem recebida\nif (msg.payload === \"AÇÃO\") {\n    // Alterna o estado\n    if (estadoGarra === \"Fechar Garra\") {\n        estadoGarra = \"Abrir Garra\";\n    } else {\n        estadoGarra = \"Fechar Garra\";\n    }\n    \n    // Armazena o novo estado no contexto\n    context.set(\"estadoGarra\", estadoGarra);\n    \n    // Atualiza o payload com o novo estado\n    msg.payload = estadoGarra; // Muda para o texto que será exibido no botão\n    return msg; // Retorna a mensagem para o próximo nó\n}\n\n// Se a mensagem não for \"AÇÃO\", não faz nada\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 320,
+        "wires": [
+            [
+                "7dcd10f6aabda467",
+                "f0cd1c1fdc774839"
+            ]
+        ]
+    },
+    {
+        "id": "f0cd1c1fdc774839",
+        "type": "mqtt out",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "topic": "Braco1/Garra",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 780,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "85c2db0c27048a91",
+        "type": "mqtt out",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "topic": "Braco1/Altura",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 320,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "939a0845e6e2da66",
+        "type": "mqtt out",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "topic": "Braco1/Direcao",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 300,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "4505023a3676d83e",
+        "type": "mqtt out",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "topic": "Braco1/Posicao",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 720,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "25eacab49853560d",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "group": "c8dad0765accb8f9",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Braço",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 400,
+        "wires": [
+            [
+                "093f9ff64302b5d4"
+            ]
+        ]
+    },
+    {
+        "id": "e33c0760a85b2517",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "",
+        "group": "2ab31943c0ef5d69",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Braço",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 550,
+        "y": 200,
+        "wires": [
+            [
+                "2c84a1b691ce80e7"
+            ]
+        ]
+    },
+    {
+        "id": "60092228f04c2a62",
+        "type": "ui_button",
+        "z": "7a5f691890cc5a7d",
+        "name": "RESETWIFI",
+        "group": "",
+        "order": 21,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "reset Wifi",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "wifi",
+        "payload": "RESET",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "85f90d5d5ed2dc05"
+            ]
+        ]
+    },
+    {
+        "id": "85f90d5d5ed2dc05",
+        "type": "mqtt out",
+        "z": "7a5f691890cc5a7d",
+        "name": "Braco/Reset",
+        "topic": "Braco/Reset",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "45fe5594e24266bb",
+        "x": 310,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "7f88cae7b810c0f8",
+        "type": "ui_text",
+        "z": "7a5f691890cc5a7d",
+        "group": "c4bda25d5f1dbb08",
+        "order": 1,
+        "width": 7,
+        "height": 2,
+        "name": "Mensagem Inicio",
+        "label": "Bem vindo ao Controle do Braço Robotico!",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": "24",
+        "color": "#00d207",
+        "x": 430,
+        "y": 20,
+        "wires": []
+    }
+]
